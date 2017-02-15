@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021231621E5441530060A694 /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0212315C1E5441530060A694 /* AppIntentVocabulary.plist */; };
+		021231631E5441540060A694 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0212315E1E5441530060A694 /* InfoPlist.strings */; };
+		021231641E5441540060A694 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 021231601E5441530060A694 /* Localizable.strings */; };
 		0225990A1E4DC19700803691 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 022599091E4DC19600803691 /* config.h */; };
 		6801D6681BEF6CC600533783 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08805C9156E8F5100311537 /* AddressBook.framework */; };
 		6804D8AE1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6804D8AC1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h */; };
@@ -5008,6 +5011,9 @@
 
 /* Begin PBXFileReference section */
 		020673881E542C5A00D06DB2 /* Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Share.entitlements; sourceTree = "<group>"; };
+		0212315D1E5441530060A694 /* cn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = cn; path = AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		0212315F1E5441530060A694 /* cn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cn; path = InfoPlist.strings; sourceTree = "<group>"; };
+		021231611E5441530060A694 /* cn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cn; path = Localizable.strings; sourceTree = "<group>"; };
 		022599091E4DC19600803691 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		6803268D1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhotoPaintSettingsWrapperView.h; sourceTree = "<group>"; };
 		6803268E1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhotoPaintSettingsWrapperView.m; sourceTree = "<group>"; };
@@ -8819,7 +8825,7 @@
 		D0876FE5196F4C33005740CE /* TGGenericPeerMediaGalleryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGGenericPeerMediaGalleryModel.m; sourceTree = "<group>"; };
 		D0876FE719702474005740CE /* TGModernGalleryZoomableScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModernGalleryZoomableScrollView.h; sourceTree = "<group>"; };
 		D0876FE819702474005740CE /* TGModernGalleryZoomableScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModernGalleryZoomableScrollView.m; sourceTree = "<group>"; };
-		D08805AC156E8F3600311537 /* Telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08805AC156E8F3600311537 /* LawTG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LawTG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08805B0156E8F3600311537 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D08805B2156E8F3600311537 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D08805B4156E8F3600311537 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -11178,6 +11184,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0212315B1E5441530060A694 /* cn.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0212315C1E5441530060A694 /* AppIntentVocabulary.plist */,
+				0212315E1E5441530060A694 /* InfoPlist.strings */,
+				021231601E5441530060A694 /* Localizable.strings */,
+			);
+			path = cn.lproj;
+			sourceTree = "<group>";
+		};
 		6811AE231A35E2E3009309A3 /* Crop */ = {
 			isa = PBXGroup;
 			children = (
@@ -14201,6 +14217,7 @@
 		9351565D18686E9D00621293 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				0212315B1E5441530060A694 /* cn.lproj */,
 				D01D7D5D19DECE2800955BDE /* ko.lproj */,
 				D0D670D1197EA36C0031B041 /* it.lproj */,
 				D0C9254D1949ED1A00E629CA /* pt.lproj */,
@@ -17635,7 +17652,7 @@
 		D08805AD156E8F3600311537 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D08805AC156E8F3600311537 /* Telegram.app */,
+				D08805AC156E8F3600311537 /* LawTG.app */,
 				D02601D71A55CA2300716290 /* Share.appex */,
 				68744C0D1BB1A9F700FE6542 /* watchkitapp.app */,
 				68744C191BB1A9F700FE6542 /* watchkitapp Extension.appex */,
@@ -23189,7 +23206,7 @@
 			);
 			name = Telegraph;
 			productName = Telegraph;
-			productReference = D08805AC156E8F3600311537 /* Telegram.app */;
+			productReference = D08805AC156E8F3600311537 /* LawTG.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -23260,7 +23277,7 @@
 								enabled = 1;
 							};
 							com.apple.Siri = {
-								enabled = 0;
+								enabled = 1;
 							};
 							com.apple.iCloud = {
 								enabled = 1;
@@ -23287,6 +23304,7 @@
 				pt_BR,
 				ko,
 				Base,
+				cn,
 			);
 			mainGroup = D08805A1156E8F3600311537;
 			productRefGroup = D08805AD156E8F3600311537 /* Products */;
@@ -23588,6 +23606,7 @@
 				D0FC351F1B3CB3BB0041A938 /* VolumeControlSliderButton@3x.png in Resources */,
 				93E05B3A165D4BCE004E31C5 /* FlatImagePlaceholder@2x.png in Resources */,
 				D084D4631A3926E500EA8120 /* AttachmentMenuInteractiveCameraIcon.png in Resources */,
+				021231641E5441540060A694 /* Localizable.strings in Resources */,
 				D084D4641A3926E500EA8120 /* AttachmentMenuInteractiveCameraIcon@2x.png in Resources */,
 				932E00E3184AA1100001D109 /* ModernConversationActionDelete_Disabled@2x.png in Resources */,
 				D00C71B1193F482E0005349C /* ModernBubbleOutgoingFullPad.png in Resources */,
@@ -23637,6 +23656,7 @@
 				683766F31E0984250029E18E /* CallOutgoing@2x.png in Resources */,
 				681EAD491A2A3B5A00E7C40C /* PhotoEditorVignetteTool@3x.png in Resources */,
 				686ED2901BF0F458001F2F96 /* MediaGroupScreenshots@2x.png in Resources */,
+				021231621E5441530060A694 /* AppIntentVocabulary.plist in Resources */,
 				D02566A01AD2B8E3007C19C1 /* InlineMediaInstagramVideoIcon@2x.png in Resources */,
 				D020B75C18B4F6740026DB24 /* ModernConversationSecretAccessoryTimer@2x.png in Resources */,
 				D061F2851A928F580031BCBE /* CameraExposureIcon@2x.png in Resources */,
@@ -24224,6 +24244,7 @@
 				6808EA931BADBD7C00D8E50E /* PhotoEditorTintTool@2x.png in Resources */,
 				D0DCF6121AF033EA00D5B7A1 /* LocationPinIcon@3x.png in Resources */,
 				D0BAF3E2193E8AC400A0093F /* ModernConversationMicButton_Highlighted.png in Resources */,
+				021231631E5441540060A694 /* InfoPlist.strings in Resources */,
 				931C5952174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png in Resources */,
 				687770A91E04388E00331194 /* TabIconCalls_Highlighted@2x.png in Resources */,
 				936DE18C1850AD1300D90029 /* ModernSegmentedControlBackground@2x.png in Resources */,
@@ -26959,6 +26980,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0212315C1E5441530060A694 /* AppIntentVocabulary.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0212315D1E5441530060A694 /* cn */,
+			);
+			name = AppIntentVocabulary.plist;
+			sourceTree = "<group>";
+		};
+		0212315E1E5441530060A694 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0212315F1E5441530060A694 /* cn */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		021231601E5441530060A694 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				021231611E5441530060A694 /* cn */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		683A05DF1BFB8B4400D9A3DD /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -27862,7 +27907,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanguang.telegramios;
-				PRODUCT_NAME = Telegram;
+				PRODUCT_NAME = LawTG;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -27949,7 +27994,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanguang.telegramios;
-				PRODUCT_NAME = Telegram;
+				PRODUCT_NAME = LawTG;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
